@@ -9,11 +9,12 @@
 - ## Chiedi il suo colore preferito
     - crea un prompt 'faveColour' per chiedere il colore preferito all'utente
     - salva il risultato del prompt 'faveColour' in una variabile let 'resultFaveColour'
-- ## Genera un numero randomico
-    - dichiara la function getRandomNumber
+- ## Genera un numero (randomico)
+    - crea una variabile 'let' con valore 'randomNumber'
+    ( - dichiara la function getRandomNumber
     - la funzione ti deve restituire (return) un numero intero random fino a 100
         - Math.floor(Math.random() * 100);
-    - salva il risultato della funzione in una variabile let 'randomNumber'
+    - salva il risultato della funzione in una variabile let 'randomNumber')
 - ## Scrivi sulla pagina il risultato della concatenazione: nomecognomecolorepreferito21
     - crea una variabile let 'newInsecurePassword' in cui salvare il risultato delle concatenazioni di 'resultName', 'resultSurname', 'favecolour' e 'randomNumber'
     - recupera con getElementById l'id dell'elemento html dove va stampato il risultato
