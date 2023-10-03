@@ -35,3 +35,10 @@
     - crea una variabile let 'newInsecurePassword' in cui salvare il risultato delle concatenazioni di 'resultName', 'resultSurname', 'favecolour' e 'randomNumber'
     - recupera con getElementById l'id dell'elemento html dove va stampato il risultato
     - modifica con innerHTML il codice stampando al suo interno 'newInsecurePassword'*/
+    let newInsecurePassword
+
+    newInsecurePassword = resultName + resultSurname + resultFaveColour + resultRandomNumber
+    console.log (newInsecurePassword)
+
+    const passwordDomElement = document.getElementById('new-password')
+    passwordDomElement.innerHTML = newInsecurePassword
